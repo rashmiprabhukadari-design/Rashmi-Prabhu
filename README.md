@@ -1,11 +1,21 @@
-<div align="center">
+# StyleKart — Fashion & Lifestyle E-Commerce
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+StyleKart is a full-stack fashion storefront built with React, TypeScript, Vite, Tailwind CSS, Zustand, Recharts, and server-side Gemini AI integration.
 
-  <h1>Built with AI Studio</h2>
+## Swapping the Mock Service Layer for a Real Backend
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+All catalog, order, and AI operations are isolated behind `/src/services`:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- `src/services/catalogService.ts`: Reads products, brands, coupons, and banners.
+- `src/services/orderService.ts`: Handles order creation and status transitions.
+- `src/services/aiService.ts`: Communicates with `/api/ai/*` endpoints on `server.ts`.
 
-</div>
+### Option A: Firebase (Firestore + Auth)
+1. Initialize Firebase in `src/lib/firebase.ts` and replace `useAuthStore` login methods with `signInWithPhoneNumber` / `GoogleAuthProvider`.
+2. Update `catalogService.ts` methods (`getProducts`, `getProductById`, `queryProducts`) to query Firestore `collection(db, 'products')` with `getDocs` / `onSnapshot`.
+3. Update `orderService.ts` (`placeOrder`, `getOrdersForUser`, `updateStatus`) to write to `collection(db, 'orders')`.
+
+### Option B: Node/Express + MongoDB
+1. Add REST routes in `server.ts` (`/api/products`, `/api/orders`, `/api/coupons`, `/api/banners`) backed by Mongoose models.
+2. Replace synchronous Zustand reads inside `src/services/catalogService.ts` and `src/services/orderService.ts` with `fetch('/api/...')` calls returning `Promise<...>`.
+3. Add JWT or session-cookie middleware to protect `/api/orders` and `/api/admin/*` endpoints.

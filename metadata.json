@@ -1,0 +1,6 @@
+{
+  "name": "StyleKart",
+  "description": "High-energy fashion & lifestyle e-commerce storefront with AI Stylist, Complete the Look, Visual Search, and full storefront-to-admin workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

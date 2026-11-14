@@ -1,0 +1,254 @@
+---
+name: High-Energy Runway
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d6d9eb'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e4e7fa'
+  surface-container-highest: '#dfe2f4'
+  on-surface: '#171b28'
+  on-surface-variant: '#5b4042'
+  inverse-surface: '#2c303e'
+  inverse-on-surface: '#eef0ff'
+  outline: '#8f6f72'
+  outline-variant: '#e3bdc0'
+  surface-tint: '#bd0043'
+  primary: '#b90041'
+  on-primary: '#ffffff'
+  primary-container: '#df2457'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffb2ba'
+  secondary: '#5a5d73'
+  on-secondary: '#ffffff'
+  secondary-container: '#dbdef8'
+  on-secondary-container: '#5e6177'
+  tertiary: '#994211'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#b85928'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffd9dc'
+  primary-fixed-dim: '#ffb2ba'
+  on-primary-fixed: '#400011'
+  on-primary-fixed-variant: '#910031'
+  secondary-fixed: '#dee1fa'
+  secondary-fixed-dim: '#c2c5de'
+  on-secondary-fixed: '#161b2d'
+  on-secondary-fixed-variant: '#42465a'
+  tertiary-fixed: '#ffdbcc'
+  tertiary-fixed-dim: '#ffb695'
+  on-tertiary-fixed: '#351000'
+  on-tertiary-fixed-variant: '#7b2f00'
+  background: '#faf8ff'
+  on-background: '#171b28'
+  surface-variant: '#dfe2f4'
+typography:
+  display-hero:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '800'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 26px
+    letterSpacing: 0em
+  headline-brand:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '700'
+    lineHeight: 20px
+    letterSpacing: 0.04em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  price-main:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 18px
+  price-strike:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  discount-tag:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-caps:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+  meta-detail:
+    fontFamily: Inter
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 12px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.5rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2.5rem
+  space-2xs: 0.125rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+  space-2xl: 2rem
+  space-3xl: 3rem
+---
+
+## Brand & Style
+
+This design system delivers a high-velocity, aspirational fashion discovery experience calibrated specifically for modern mobile-first retail consumers. The brand aesthetic merges the crisp, structured layout of editorial catalogs with the kinetic urgency of flash retail. 
+
+The aesthetic is anchored in **Modern Commercial Minimalism with High-Contrast Accents**:
+- **Personality:** Trend-conscious, assertive, vibrant, and dependable.
+- **Emotional Response:** Inspires instant aspiration and desire, balanced by reassuring transactional clarity (transparent pricing, clear discounting, crisp product imagery).
+- **Visual Rhythm:** Clean white canvases interrupted by striking hot-pink anchors, warm energetic orange highlights, and structured charcoal text hierarchies. Surfaces feel organized and airy rather than cluttered, preserving high visual density without overwhelming the shopper.
+
+## Colors
+
+The color palette is engineered for vibrant catalog presentation, immediate visual cues, and sharp conversion flows:
+
+- **Primary (`#FF3F6C`):** Vibrant Hot Pink / Magenta. Reserved for primary calls-to-action (Add to Bag, Buy Now), brand tags, promotional accents, active filter states, and key navigational focus.
+- **Secondary / Primary Text (`#282C3F`):** Deep Charcoal. Delivers high contrast for brand typography, product titles, key values, and critical UI framing without the harshness of pure black.
+- **Tertiary / Promo Accent (`#FF905A`):** Energetic Warm Orange. Applied to time-sensitive urgency triggers, special deal tags, coupon badges, and secondary highlight micro-interactions.
+- **Success / Trust Metric (`#14958F`):** Deep Teal / Green. Dedicated strictly to discount percentages (e.g., `(40% OFF)`), verified customer ratings, delivery milestones, and savings notifications.
+- **Neutrals & Surfaces:**
+  - Base Canvas: `#FFFFFF`
+  - Subtle Sectioning & Tonal Wash: `#F5F5F6`
+  - Hairline Separators & Card Outlines: `#EAEAEC`
+  - Subdued / Secondary Body Text: `#535766`
+  - Muted / Strikethrough Price: `#94969F`
+
+## Typography
+
+Typography centers on pure readability, crisp numerical parsing, and clear hierarchy across dense multi-column layouts. `Inter` serves as the primary system typeface for its optical clarity, neutral geometric baseline, and robust currency glyph support.
+
+- **Brand Hierarchy:** All merchant or brand labels utilize `headline-brand` or `label-caps` in strict uppercase styling (`text-transform: uppercase`) with widened letter spacing (`letterSpacing: 0.04em` to `0.08em`) to anchor product authority.
+- **Price Architecture:** Price groups consistently pair three distinct typographic styles on a single horizontal row:
+  1. **Selling Price:** `price-main` in `#282C3F` prefixed with `₹`.
+  2. **Original MRP:** `price-strike` in `#94969F` with an active strikethrough.
+  3. **Discount Incentive:** `discount-tag` in `#FF905A` or `#14958F` formatted as `(X% OFF)`.
+- **Title Truncation:** Product subheadings and descriptions in `body-sm` rely on strict single-line text clamping with trailing ellipsis (`...`) to preserve strict vertical grid alignment.
+
+## Layout & Spacing
+
+The layout is built upon an adaptive 12-column fluid grid on desktop and a high-efficiency 2-column or 4-column structure on smaller viewports.
+
+- **Breakpoints:**
+  - **Mobile (`< 768px`):** Fixed 2-column product grid with `0.5rem` gutters and `1rem` outer canvas padding to optimize viewport density.
+  - **Tablet (`768px - 1024px`):** 3-column to 4-column product grid with `1rem` gutters.
+  - **Desktop (`> 1024px`):** 4-column or 5-column layout with a fixed `260px` sticky filter sidebar, `1.5rem` gutters, and maximum container boundaries capped at `1440px`.
+- **Vertical Rhythm:**
+  - Micro spacings (`space-2xs` to `space-sm`) drive tight relationship groups (e.g., star rating icons with counts, currency symbol with numbers).
+  - Component spacing (`space-md` to `space-lg`) manages padding inside interactive controls and card bodies.
+  - Section blocks (`space-2xl` to `space-3xl`) delineate carousels, category rings, and promotional banners.
+
+## Elevation & Depth
+
+Visual depth is achieved through structural flat division, selective frosted glass overlays, and restrained ambient hover states.
+
+- **Baseline Level (0dp):** White `#FFFFFF` and off-white `#F5F5F6` background surfaces bounded by hairline borders (`1px solid #EAEAEC`). Default catalog states remain flat to ensure fast visual scanning.
+- **Floating Badges & Glassmorphism:**
+  - Product rating tags overlaying photography use a frosted substrate: `background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(4px); border: 1px solid rgba(255, 255, 255, 0.6);`.
+  - Floating wishlist triggers use a subtle radial drop shadow: `box-shadow: 0 2px 8px rgba(40, 44, 63, 0.12);`.
+- **Card Hover Elevation:**
+  - When hovered on pointer-enabled devices, product cards do not scale; they receive a subtle, tinted lift: `box-shadow: 0 8px 20px rgba(40, 44, 63, 0.08);` with a simultaneous reveal of the secondary quick-actions container.
+- **Modals, Sheets, and Sticky Footers:**
+  - Cart summaries and bottom sheets use deep, diffuse elevation: `box-shadow: 0 -4px 16px rgba(40, 44, 63, 0.10);`.
+
+## Shapes
+
+This design system implements a deliberate duality in its geometry: crisp, structured corners for catalog containers, and tactile, friendly radiuses for interactive touchpoints.
+
+- **Crisp Structural Containers (`4px` / `0.25rem`):**
+  - Product cards, category tiles, rating chips, discount tags, and technical spec badges utilize a tight `4px` radius. This maintains clean alignment lines along dense multi-card product grids.
+- **Interactive Controls & Action Elements (`8px` / `0.5rem`):**
+  - Primary, secondary, and ghost buttons, form fields, and dropdown containers use `8px` rounded corners.
+- **Filter Pills & State Toggles (`9999px` / Full Pill):**
+  - Size selectors, filter tags, search suggestions, and circular icon buttons (wishlist hearts, close triggers) utilize complete pill geometry.
+- **Aspect Ratio Constraint:**
+  - All primary apparel and lifestyle product media conform strictly to a `3:4` vertical portrait ratio to preserve uniform grid alignment across varying brand imagery.
+
+## Components
+
+### 1. Product Card (Standard Display)
+- **Container:** `3:4` aspect-ratio image container stacked vertically above a content block. Baseline border `1px solid #EAEAEC`, radius `4px`.
+- **Floating Wishlist Trigger:** Positioned `10px` from the top-right corner of the image. Circular button (`32px x 32px`), white background with light shadow (`0 2px 6px rgba(0,0,0,0.1)`). Houses an SVG heart icon (`#282C3F` outline; active state `#FF3F6C` fill).
+- **Floating Rating Badge:** Positioned `8px` from the bottom-left corner of the image. Semi-translucent white glass background (`rgba(255, 255, 255, 0.85)` with `backdrop-filter: blur(4px)`), `4px` radius, padding `2px 6px`. Layout: `4.3 ★ | 2.1k` in `meta-detail` styling, with the star icon tinted `#14958F`.
+- **Card Content Area:** Padding `10px 12px 12px`.
+  - **Brand Title:** `headline-brand`, uppercase, `#282C3F`, single-line truncation.
+  - **Product Subtitle:** `body-sm`, `#535766`, single-line truncation with bottom margin `4px`.
+  - **Price Row:** Flex alignment with `space-sm` gap:
+    - Current Price: `price-main`, `#282C3F`.
+    - Original MRP: `price-strike`, line-through, `#94969F`.
+    - Discount Percentage: `discount-tag`, `#FF905A` (or `#14958F`), formatted as `(X% OFF)`.
+
+### 2. Buttons
+- **Primary Button (Add to Bag / Proceed):** Height `48px` (mobile: `44px`), radius `8px`. Solid `#FF3F6C` background, `#FFFFFF` bold uppercase text, letter spacing `0.04em`. No border. Hover: subtle brightness dip.
+- **Secondary Button (Wishlist / View Details):** Height `48px`, radius `8px`. Solid white background, `1px solid #EAEAEC` outline, text `#282C3F`. Hover: border color shifts to `#282C3F`.
+- **Express Action / Urgency Button:** Height `48px`, radius `8px`. Solid `#FF905A` background with `#FFFFFF` text.
+
+### 3. Chips & Filter Selectors
+- **Filter Pills:** Height `32px`, pill radius (`9999px`), padding `6px 14px`. Unselected: `#FFFFFF` fill, `1px solid #EAEAEC`, text `#282C3F`. Selected: `#F5F5F6` fill, `1px solid #282C3F` border, bold text with trailing close icon.
+- **Size Selector Pills:** Fixed square/pill dimensions (`40px x 40px` or `44px` height for custom sizes), radius `9999px` or `4px`. Available: `1px solid #EAEAEC` with `#282C3F` text. Out-of-Stock: `#F5F5F6` with diagonal slash and `#94969F` text. Active/Selected: `1.5px solid #FF3F6C` border, text `#FF3F6C`, faint pink background wash (`#FFF0F4`).
+
+### 4. Input Fields & Search Bars
+- **Global Header Search:** Height `40px` to `44px`, background `#F5F5F6`, radius `4px` or `8px`, border `1px solid transparent`. Left-aligned magnifying glass icon (`#535766`). Placeholder: `body-md` in `#94969F`. Focus state: `#FFFFFF` background with `1px solid #EAEAEC` and subtle inset shadow.
+- **Form Inputs:** Height `44px`, radius `4px`, border `1px solid #EAEAEC`. Active focus creates a crisp outline in `#282C3F`. Floating labels transition to `meta-detail` in `#535766`.
+
+### 5. Checkboxes & Radio Controls
+- **Checkboxes (Filters):** `18px x 18px`, radius `2px`. Unchecked: `1.5px solid #535766`. Checked: solid `#FF3F6C` with white checkmark glyph.
+- **Radio Buttons:** `18px x 18px` circular control. Checked: outer ring `#FF3F6C` enclosing an inner `#FF3F6C` dot.
+
+### 6. Value-Add Elements
+- **Urgency / Coupon Strips:** Background `#FFF0F4` with dashed `1px dashed #FF3F6C` border, radius `4px`, displaying promotional vouchers with copyable promo codes in `headline-brand`.
+- **Delivery Availability Indicator:** Compact input paired with an inline `#FF3F6C` "Check" action button yielding instant green `#14958F` delivery date confirmations.
